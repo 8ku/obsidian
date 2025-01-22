@@ -1,11 +1,8 @@
 # Obsidian Notes
 
-Publish your public notes with MkDocs
-
-## Hello World!
-
-The `index.md` in the `/docs` folder is the homepage you see here.
-
-The folders in `/docs` appear as the main sections on the navigation bar.
-
-The notes appear as pages within these sections. For example, [[Note 1]] in `Topic 1`
+1. [[1984]]
+2. [[论自愿为奴]]
+3. [[身价四亿的鲨鱼]]
+4. [[The greatest salesman in the World]]
+5. [[阅读是砍向我们内心冰封大海的斧头]]
+6. [[另类知识：知识及其敌人]]
