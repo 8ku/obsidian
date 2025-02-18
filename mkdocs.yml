@@ -1,14 +1,25 @@
 site_name: Obsidian mkdocs
 
 theme:
-  name: mkdocs
-  color_mode: auto
-  user_color_mode_toggle: true
-  locale: en
-  highlightjs: true
-  hljs_languages:
-    - yaml
-    - django
+  name: "material"
+  palette:
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: blue
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
 
 # Extensions
 markdown_extensions:
@@ -38,7 +49,7 @@ markdown_extensions:
 
 plugins:
   - search:
-      jieba_dict: dict.txt
+      separator: '[\s\u200b\-]'
   - roamlinks
   - mermaid2
 
