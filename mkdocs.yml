@@ -41,7 +41,6 @@ plugins:
       jieba_dict: dict.txt
   - roamlinks
   - mermaid2
-  - jieba
 
 extra_javascript:
   - javascripts/mathjax.js
