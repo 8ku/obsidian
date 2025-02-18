@@ -12,19 +12,30 @@ theme:
 
 # Extensions
 markdown_extensions:
-  - toc:
-      permalink: 
-  - attr_list
-  - def_list
-  - tables
-  - pymdownx.highlight:
-      use_pygments: false
-  - pymdownx.snippets
-  - pymdownx.superfences
-  - mdx_gh_links:
-      user: mkdocs
-      repo: mkdocs
-  - mkdocs-click
+  markdown_extensions:
+    - footnotes
+    # - attr_list
+    - pymdownx.arithmatex:
+        generic: true
+    # - pymdownx.superfences
+    # - pymdownx.details
+    # - pymdownx.magiclink
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - def_list
+    - pymdownx.critic
+    - pymdownx.caret
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.tilde
+    - pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
+
+    - toc:
+        permalink: true
 
 plugins:
   - search:
