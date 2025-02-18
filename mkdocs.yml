@@ -52,6 +52,10 @@ plugins:
       separator: '[\s\u200b\-]'
   - roamlinks
   - mermaid2
+  - tags:
+      listings_map:
+        custom-id:
+          toc: true
 
 extra_javascript:
   - javascripts/mathjax.js
